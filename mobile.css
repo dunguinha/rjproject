@@ -1,0 +1,13 @@
+#compras{
+    grid-template-columns: repeat(1, 5fr);
+}
+
+.minazap{
+    display: none;
+}
+
+.spanend {
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}

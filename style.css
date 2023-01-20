@@ -111,6 +111,7 @@ header div a button{
 }
 
 .cta {
+    cursor: pointer;
     --bg: #000;
     --hover-bg: rgb(255, 0, 0);
     margin-left: 20px;
@@ -154,12 +155,15 @@ header div a button{
 
   #compras {
     scroll-behavior: smooth;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-content: center;
+    justify-items: center;
+
 
   }
+
+
   
   .card {
     width: 300px;
@@ -262,30 +266,23 @@ footer {
     padding: 70px;
 }
 .aba1 {
-    justify-content: center;
+    display: inline-block;
+    overflow: hidden;
     display: flex;
-    height: 100%;
-    width: 100% ;
-    color: white;
-    flex-flow: row;
     align-items: center;
-    align-content: center;
-    overflow-x: hidden;
+    justify-content: center;
+    margin: 30px 30px 30px 30px;
 
 }
 
 .aba2 {
     
-    justify-content: center;
+    display: inline-block;
+    overflow: hidden;
     display: flex;
-    height: 100%;
-    width: 100% ;
-    color: white;
-    flex-flow: row;
     align-items: center;
-    align-content: center;
-    overflow-x: hidden;
-
+    justify-content: center;
+    margin: 30px 30px 30px 30px;
 }
 
 .homi{
@@ -296,6 +293,8 @@ footer {
 
 .bola {
     position: relative;
+    width: 100%;
+    border-radius: 70px;
 }
 
 .textaba1 {
@@ -428,23 +427,6 @@ height: 697px;
 }
 
 
-/* .zapzap {
-    background-color: #008b33;
-    padding: 50px 100px 50px 100px;
-    border-radius: 20px;
-    color: #f5f5f5;
-    border-width: 1px;
-    font-size: large;
-    font-weight: 800;
-    border-style: solid;
-    width: 700px;
-    
-}
-
-.listagem{
-    list-style-type: none;
-} */
-
 .wrapper {
     justify-content: center;
     width: 100px;
@@ -535,3 +517,21 @@ height: 697px;
     animation-delay: .3s;
   }
   
+.spanend{
+    color: #ffffff;
+    align-items: flex-end;
+    font-size: 22px;
+    font-weight: 200;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+    display: flex;
+    background-color: #f67828;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#contato{
+    position: relative;
+    width: 100%;
+}
