@@ -228,7 +228,7 @@ header div a button{
    
    /*Hover*/
    .card-img:hover {
-    transform: translateY(-25%);
+    transform: translateY(-5%);
    }
    
    .card-button:hover {
