@@ -9,22 +9,28 @@
     <title>RJ TECNOLOGIA</title>
 </head>
 
-<body>
+<body onload="loading()">
+    <div id="loading" style="display: block">
+        <img src="http://media.giphy.com/media/FwviSlrsfa4aA/giphy.gif" style="width:150px;height:150px;" />
+    </div>
+    <div id="conteudo" style="display: none">
+        Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
+    </div>
 <!--     <div class="linhas">
         <img src="linha teste.png" alt="">
     </div> -->
 
     <header>
         <div class="divheader">
-        <img class="logo" src="logo rj.png" alt="logo da rj">
+        <img class="logo" src="logo rj menor.png" alt="logo da rj">
         <nav>
             <ul class="nav__links">
                 <li><a href="#compras">Planos</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="#contato">Contato</a></li>
                 <li><a href="#">Sobre</a></li>
             </ul>
         </nav>
-        <a class="cta" href="#"><button style="font-weight: 800;">Central do Cliente</button></a>
+        <a href="https://rjtecnologia.net.br/central_assinante_web/login"><button class="cta" style="font-weight: 800;">Central do Cliente</button></a>
         </div>
     </header>
 
@@ -44,29 +50,29 @@
 <div id="compras">
     <div class="card">
         <div class="card-img">
-            <img src="50MEGA WHITE.png" alt="">
+            <img src="300 mega.png" alt="">
         </div>
             <div class="card-info">
-            <p class="text-title">+ INSTALACAO</p>
-            <p class="text-body">Product description and details</p>
+            <p class="text-title"><br></p>
+            <p class="text-body">Marque a sua instalação agora mesmo!</p>
             </div>
             <div class="card-footer">
-            <span class="text-title">R$ 39,99</span>
+            <span class="text-title">De: <s>R$69,99</s> para R$ 39,99</span>
             <div class="card-button">
-                <span class="svg-icon" > Assinar </span>
+                <span class="svg-icon" > Assine Já </span>
             </div>
     </div></div>
 
     <div class="card">
         <div class="card-img">
-            <img src="50MEGA WHITE2.png" alt="">
+            <img src="300 mega.png" alt="">
         </div>
             <div class="card-info">
-            <p class="text-title">+ INSTALACAO </p>
-            <p class="text-body">Product description and details</p>
+            <p class="text-title"><br> </p>
+            <p class="text-body">Marque a sua instalação agora mesmo!</p>
             </div>
             <div class="card-footer">
-            <span class="text-title">R$ 39,99</span>
+            <span class="text-title">De: <s>R$69,99</s> para R$ 39,99</span>
             <div class="card-button">
             <span class="svg-icon" > COMPRE JÁ</span>
             </div>
@@ -74,11 +80,26 @@
 
     <div class="card">
         <div class="card-img">
-            <img src="50MEGA WHITE.png" alt="">
+            <img src="300 mega.png" alt="">
         </div>
             <div class="card-info">
-            <p class="text-title"> + INSTALACAO </p>
-            <p class="text-body">Product description and details</p>
+            <p class="text-title"><br> </p>
+            <p class="text-body">Marque a sua instalação agora mesmo!</p>
+            </div>
+            <div class="card-footer">
+            <span class="text-title">De: <s>R$69,99</s> para R$ 39,99</span>
+            <div class="card-button">
+                <span class="svg-icon" > COMPRE JÁ</span>
+            </div>
+    </div></div>
+
+    <div class="card">
+        <div class="card-img">
+            <img src="300 mega.png" alt="">
+        </div>
+            <div class="card-info">
+            <p class="text-title"><br></p>
+            <p class="text-body">Marque a sua instalação agora mesmo!</p>
             </div>
             <div class="card-footer">
             <span class="text-title">R$ 39,99</span>
@@ -89,26 +110,11 @@
 
     <div class="card">
         <div class="card-img">
-            <img src="50MEGA WHITE.png" alt="">
+            <img src="300 mega.png" alt="">
         </div>
             <div class="card-info">
-            <p class="text-title">+ INSTALACAO</p>
-            <p class="text-body">Product description and details</p>
-            </div>
-            <div class="card-footer">
-            <span class="text-title">R$ 39,99</span>
-            <div class="card-button">
-                <span class="svg-icon" > COMPRE JÁ</span>
-            </div>
-    </div></div>
-
-    <div class="card">
-        <div class="card-img">
-            <img src="50MEGA WHITE.png" alt="">
-        </div>
-            <div class="card-info">
-            <p class="text-title">+ INSTALACAO</p>
-            <p class="text-body">Product description and details</p>
+            <p class="text-title"><br></p>
+            <p class="text-body">Marque a sua instalação agora mesmo!</p>
             </div>
             <div class="card-footer">
             <span class="text-title">R$ 39,99</span>
@@ -123,6 +129,40 @@
         <img src="02.png" alt="foto1">
     </article>
 </div>
+
+    <div class="aba1">
+        <img class="bola"src="a melhor internet.png" alt="">
+    </div>
+
+    <div class="linha"></div>
+
+    <div id="contato">
+        <img src="entre em contato copiar.png" alt="">
+    </div>
+<div class="sectionctt">
+    <section>
+        <h2>Contato</h2>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label>Nome</label>
+            <input type="text" name="name" placeholder="Digite seu Nome" autocomplete="off">
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Digite seu Email" autocomplete="off">
+            <label>Mensagem</label>
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua Mensagem"></textarea>
+            <button type="submit">Enviar</button>
+
+            <input type="hidden" name="accessKey" value="2ceb529f-99c2-4f35-aa87-21ef30d64b6d">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500">
+        </form>
+    </section>
+    <div class="contatozap">
+        <img class="minazap"src="menina-joinha.png" alt="">
+    </div>
+</div>
+
+    <a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5599111112222" target="_blank">
+        <i class="fa fa-whatsapp"></i>
+    </a>
 
 </main>
 
